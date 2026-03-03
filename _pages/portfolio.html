@@ -7,8 +7,44 @@ author_profile: true
 
 {% include base_path %}
 
+<!-- 这里可以写一段简短的介绍 -->
+<p>本页面展示我在专业学习之外的艺术探索与文化创作，包括书法及摄影作品。</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<hr>
 
+<!-- 作品 1：书法比赛作品 -->
+<div style="margin-bottom: 40px;">
+  <h3 id="petroleum-calligraphy-2026">🏆 第十届全国石油高校石油文化作品征集</h3>
+  
+  <p><strong>作品名称：</strong>《智绿新章》（示例名称，请修改）<br>
+  <strong>奖项：</strong>[填写你的获奖等级，如：一等奖]<br>
+  <strong>类别：</strong>书法类<br>
+  <strong>主题：</strong>油脉承薪火，智绿绘新章</p>
+
+  <blockquote>
+    <strong>创作阐述：</strong><br>
+    （在此处粘贴你的创作心得。例如：本作品以“智绿”为核心，笔法上尝试融合传统帖学的灵动与现代构成的张力，寓意石油行业在传统能源基地上通过数智化技术焕发新生……）
+  </blockquote>
+
+  <!-- 图片展示区域 -->
+  <div style="text-align: center; margin-top: 20px;">
+    <!-- 请将下面的文件名改为你实际上传到 files/ 文件夹的图片名 -->
+    <img src="{{ base_path }}/files/calligraphy-work-2026.jpg" 
+         alt="书法作品《智绿新章》" 
+         style="max-width: 100%; height: auto; border: 1px solid #ddd; padding: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    
+    <p style="color: #666; font-size: 0.9em; margin-top: 10px;">图：书法作品《智绿新章》（四尺整张）</p>
+  </div>
+  
+  <!-- 如果有细节图，可以取消下面注释并修改文件名 -->
+  <!--
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+    <div style="flex: 1; min-width: 300px; text-align: center;">
+      <img src="{{ base_path }}/files/calligraphy-detail-01.jpg" alt="局部细节" style="max-width: 100%; height: auto;">
+      <p>局部：笔法细节</p>
+    </div>
+  </div>
+  -->
+</div>
+
+<!-- 如果有其他作品，可以复制上面的 div 块继续添加 -->
