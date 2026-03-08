@@ -1,7 +1,7 @@
 ---
 title: '理论力学'
 date: 2026-03-05
-permalink: /posts/2012/08/blog-post-1/
+permalink: /posts/2026/03/theoretical-mechanics/
 tags:
   - 理论力学
   - 笔记
