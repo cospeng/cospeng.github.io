@@ -1,7 +1,7 @@
 ---
 title: "Project Chrono 载荷 (Loads) 学习笔记"
-date: 2024-05-20
-permalink: /posts/2024/05/project-chrono-loads/
+date: 2026-03-08
+permalink: /posts/2026/03/project-chrono-loads/
 tags:
   - Project Chrono
   - 多体动力学
