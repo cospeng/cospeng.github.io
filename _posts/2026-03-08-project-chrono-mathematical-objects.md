@@ -1,7 +1,7 @@
 ---
 title: "Project Chrono 数学对象（Mathematical Objects）学习笔记"
 date: 2026-03-08
-permalink: /posts/2026/03/project-chrono-loads/
+permalink: /posts/2026/03/project-chrono-mathematical-objects/
 tags:
   - Project Chrono
   - 多体动力学
