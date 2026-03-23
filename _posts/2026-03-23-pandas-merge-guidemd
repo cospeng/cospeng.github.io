@@ -12,7 +12,6 @@ tags:
 与其记住 `merge`、`join`、`concat` 一大堆，不如只记住一个：**`merge`**。  
 它能覆盖 90% 的表连接场景，语法统一，逻辑清晰。
 
----
 
 ## 核心语法
 
@@ -31,7 +30,7 @@ pd.merge(左表, 右表, on='共同列名', how='连接方式')
 
 > 比赛里几乎只用 `left`，因为你总有一张主表（如 users），想把其他信息关联进来，又不想丢掉任何一条用户记录。
 
----
+
 
 ## 三个典型场景
 
@@ -66,7 +65,7 @@ result = pd.merge(result, total_spend, on='user_id', how='left')
 result = result.fillna(0)
 ```
 
----
+
 
 ## 完整示例（可运行）
 
@@ -113,7 +112,7 @@ print(result)
 3        4   赵六          0.0        300.0
 ```
 
----
+
 
 ## 注意事项
 
@@ -122,7 +121,7 @@ print(result)
 
 > **一句话总结**：记住 `merge` + `left` 连接，足够应对比赛中绝大多数表关联需求。
 
----
+
 
 ## 延伸：当连接字段名不同时
 
@@ -131,7 +130,7 @@ print(result)
 pd.merge(users, other, left_on='user_id', right_on='uid', how='left')
 ```
 
----
+
 
 ## 模块小结
 
