@@ -35,7 +35,7 @@ stat, p = stats.shapiro(data)
 
 | 数据情况 | 比较两组均值 | 关联性分析 |
 | :--- | :--- | :--- |
-| **符合正态分布** | **T 检验** (`ttest_ind`) | **Pearson** 相关系数 |
+| **符合正态分布** | **T 检验** (`ttest_ind`, 'ttest_ref') | **Pearson** 相关系数 |
 | **不符合正态分布** | **Mann-Whitney U** 检验 | **Spearman** 相关系数 |
 
 判别标准 (Significant Level)
