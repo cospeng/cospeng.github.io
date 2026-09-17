@@ -11,6 +11,7 @@ author_profile: true
 
 <hr>
 
-{% for post in site.portfolio reversed %}
+{% assign portfolio_collection = site.collections | where: "label", "portfolio" | first %}
+{% for post in portfolio_collection.docs reversed %}
   {% include archive-single.html %}
 {% endfor %}
