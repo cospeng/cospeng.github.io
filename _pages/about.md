@@ -21,7 +21,7 @@ $$M(q)\ddot{q} + C(q, \dot{q})\dot{q} + K(q)q = F_{contact} + F_{ext}$$
 其中 $M, C, K$ 分别代表系统的质量、阻尼和刚度矩阵。
 
 ### 个人项目展示 / Selected Projects
-* **项目 A：** 水平井摩阻扭矩预测模型的优化研究。
+* **Articulated Flexible Drillpipe Analysis：** 分析超短半径水平井中柔性钻杆的轴向力、扭矩、关节姿态和井壁接触载荷。 [查看项目](/portfolio/)
 
 
 

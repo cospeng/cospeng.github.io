@@ -20,17 +20,5 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Technical Notes"
     url: /year-archive/
-    
-  - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
-    
-  # - title: "艺术作品"
-  #   url: /portfolio/
