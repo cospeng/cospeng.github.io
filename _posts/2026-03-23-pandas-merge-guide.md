@@ -2,6 +2,8 @@
 title: 'Pandas 表连接：merge 就够了'
 date: 2026-03-23
 permalink: /posts/2026/03/pandas-merge-guide/
+categories:
+  - data-analysis
 tags:
   - pandas
   - 数据清洗

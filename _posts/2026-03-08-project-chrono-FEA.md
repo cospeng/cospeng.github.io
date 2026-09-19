@@ -2,6 +2,9 @@
 title: "Project Chrono FEA 有限元分析学习笔记"
 date: 2026-03-08
 permalink: /posts/2026/03/project-chrono-FEA/
+categories:
+  - simulation
+  - finite-element-analysis
 tags:
   - Project Chrono
   - 多体动力学

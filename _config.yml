@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
+locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Yuxuan Peng's Homepage"
 title_separator          : "-"
 name                     : &name "Yuxuan Peng"
-description              : &description "Master Student in Petroleum Engineering | Focus on Multibody Dynamics"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Master's Student in Petroleum Engineering | Multibody Dynamics Simulation of Articulated Flexible Drillpipe"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://cospeng.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Yuxuan Peng"
   pronouns         : # example: "He/Him"  
-  bio              : "Master's student in Petroleum Engineering.<br>Research focus: <strong>Multibody Dynamics</strong> and <strong>Drillstring Mechanics</strong>."
-  location         : "中国"
-  employer         : "中国石油大学（北京）"
+  bio              : "Master's student in Petroleum Engineering.<br>Research focus: <strong>Multibody Dynamics Simulation of Articulated Flexible Drillpipe</strong>."
+  location         : "China"
+  employer         : "China University of Petroleum (Beijing)"
   uri              : # URL
   email            : "cospeng@outlook.com" 
 
@@ -166,6 +166,16 @@ include:
   - _pages
   - files
 exclude:
+  - _pages/cv.md
+  - _pages/cv-json.md
+  - _pages/archive-layout-with-content.md
+  - _pages/markdown.md
+  - _pages/non-menu-page.md
+  - _pages/talkmap.html
+  - _pages/talks.html
+  - _pages/teaching.html
+  - _talks
+  - _teaching
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

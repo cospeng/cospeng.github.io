@@ -2,6 +2,9 @@
 title: 'K-Means 算法核心知识手册'
 date: 2026-03-25
 permalink: '/posts/2026/03/kmeans-clustering-guide/'
+categories:
+  - data-analysis
+  - machine-learning
 tags:
   - Python
   - 机器学习

@@ -23,6 +23,13 @@ The analyzed trajectory uses a 2.7 m build-up radius and a 55-segment pipe model
 
 The contact-force profile highlights how the pipe interacts with the wellbore across the horizontal, build-up, and vertical sections. The public analysis repository includes the notebook and exported figures used to reproduce the reported visualizations.
 
+## Key findings
+
+- Joint-limit activation can drive the confined articulated pipe into a discrete helical configuration under axial compression.
+- End-face-edge contact amplifies joint normal force and contributes to backward whirl, segment precession, and coupled axial-circumferential slip.
+- In the studied 12 m near-bit section, axial-force loss reaches approximately 38 kN and torque loss approximately 800 N·m.
+- The results support mechanics-based design and operating-parameter optimization for ultrashort-radius horizontal drilling.
+
 ## Technical focus
 
 `Python` / `NumPy` / `pandas` / `matplotlib` / `seaborn` / `Jupyter`

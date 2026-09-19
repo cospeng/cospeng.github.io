@@ -2,6 +2,8 @@
 title: 'Pandas 正则提取实战：从字符串中精准获取数据'
 date: 2026-03-24
 permalink: /posts/2026/03/pandas-regex-extract/
+categories:
+  - data-analysis
 tags:
   - pandas
   - python

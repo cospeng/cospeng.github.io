@@ -2,6 +2,8 @@
 title: 'Pandas 日期处理常用实践笔记'
 date: 2026-03-24
 permalink: /posts/2026/03/pandas-datetime-guide/
+categories:
+  - data-analysis
 tags:
   - pandas
   - datetime

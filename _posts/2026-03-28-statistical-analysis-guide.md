@@ -2,6 +2,9 @@
 title: '统计分析笔记：从 SciPy 分布检验到 statsmodels 建模'
 date: 2026-03-28
 permalink: /posts/2026/03/statistical-analysis-guide/
+categories:
+  - data-analysis
+  - statistics
 tags:
   - SciPy
   - statsmodels
@@ -114,4 +117,3 @@ forecast = results.get_forecast(steps=5).summary_frame()
 
 
 **核心金句**：相关性不代表因果性；P 值不是万能的，但它是拒绝“巧合”的有力武器。
-

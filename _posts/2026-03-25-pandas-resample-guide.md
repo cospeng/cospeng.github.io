@@ -2,6 +2,9 @@
 title: 'Pandas 时间序列重采样 (Resample) 指南'
 date: 2026-03-25
 permalink: /posts/2026/03/pandas-resample-guide/
+categories:
+  - data-analysis
+  - time-series
 tags:
   - Python
   - Pandas
